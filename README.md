@@ -1,1 +1,0 @@
-# vladyslav-skorokhod.github.io
