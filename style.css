@@ -1,57 +1,98 @@
 /* CSS */
-body {
-  font-family: Arial, sans-serif;
+
+/* Reset CSS */
+* {
   margin: 0;
   padding: 0;
+  box-sizing: border-box;
 }
 
-.container {
-  max-width: 800px;
-  margin: 0 auto;
-  padding: 20px;
-}
-
-.profile-photo {
-  width: 150px;
-  height: 150px;
-  border-radius: 50%;
-}
-
-.name {
-  font-size: 2em;
-  margin-top: 20px;
-  margin-bottom: 10px;
-}
-
-.description {
-  font-size: 1.2em;
+/* Typography */
+body {
+  font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  font-size: 16px;
   line-height: 1.5;
-  margin-bottom: 20px;
+  color: #333;
+}
+
+h1, h2, h3 {
+  font-weight: bold;
+  color: #222;
+  margin-bottom: 1rem;
+}
+
+h1 {
+  font-size: 2.5rem;
 }
 
 h2 {
-  font-size: 1.5em;
-  margin-top: 40px;
-  margin-bottom: 20px;
+  font-size: 1.8rem;
+}
+
+h3 {
+  font-size: 1.4rem;
+}
+
+p {
+  margin-bottom: 1rem;
 }
 
 ul {
   list-style: none;
-  margin: 0;
-  padding: 0;
+  margin-bottom: 1rem;
 }
 
-li {
-  margin-bottom: 20px;
+/* Layout */
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 2rem;
 }
 
-h3 {
-  font-size: 1.2em;
-  margin-bottom: 10px;
+.profile-photo {
+  display: block;
+  max-width: 200px;
+  height: auto;
+  margin-bottom: 1rem;
+  border-radius: 50%;
 }
 
-p {
-  font-size: 1em;
-  line-height: 1.5;
-  margin: 0;
+.email, .telegram {
+  margin-top: 1rem;
+}
+
+.email a, .telegram a {
+  color: #333;
+}
+
+/* Experience */
+.experience li {
+  margin-bottom: 2rem;
+}
+
+.experience h3 {
+  margin-bottom: 0.5rem;
+  font-size: 1.4rem;
+}
+
+.experience p {
+  margin-bottom: 0.5rem;
+}
+
+/* Skills and Education */
+.skills_and_education li {
+  margin-bottom: 2rem;
+}
+
+.skills_and_education h3 {
+  margin-bottom: 0.5rem;
+  font-size: 1.4rem;
+}
+
+.skills_and_education p {
+  margin-bottom: 0.5rem;
+}
+
+.coursera_1 a, .coursera_2 a {
+  color: #0077b5;
 }
