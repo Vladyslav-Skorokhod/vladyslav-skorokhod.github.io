@@ -17,6 +17,19 @@
 </head>
 <body>
   <div class="container">
+      <style>
+      @keyframes spin3D {
+        from { transform: rotateY(0deg) }
+        to { transform: rotateZ(360deg) }
+        }
+      .profile-photo:hover {
+        animation-name: spin3D;
+        animation-duration: 1s;
+        animation-iteration-count: 1;
+        /* linear | ease | ease-in | ease-out | ease-in-out */
+        animation-timing-function: ease-in-out;
+      }
+      </style>
     <img src="profile-photo.jpeg" alt="Profile Photo" class="profile-photo">
     <h1 class="name">Vladyslav Skorokhod</h1>
     <h2 class="position">Product Manager</h2>
