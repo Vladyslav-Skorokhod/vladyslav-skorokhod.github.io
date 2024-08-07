@@ -104,15 +104,3 @@ ul {
   margin-bottom: 0.5rem;
   font-size: 1.4rem;
 }
-
-.video-container {
-  padding-bottom: 178%;
-  position: relative;
-  display: block;
-  width: 100%;
-}
-.video-container iframe {
-  position: absolute;
-  top: 0;
-  left:0;
-}
